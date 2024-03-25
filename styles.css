@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #48cae4, #f72585);
+}
+
+table {
+  height: 51vh;
+  width: 30vw;
+}
+
+button {
+  width: 99%;
+  height: 100%;
+  font-weight: bolder;
+  border: 1px solid white;
+  outline: none;
+  background-color: rgb(255, 255, 255, 0.6);
+}
+
+button:hover {
+  background-color: rgb(255, 255, 255, 0.9);
+}
+
+#s {
+  width: 99%;
+  text-align: right;
+  height: 90%;
+  font-size: 20px;
+  font-weight: 900;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+#display {
+  position: relative;
+}
+
+#ans {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 8px;
+  border: transparent;
+  text-align: right;
+  margin-right: 10px;
+  font-size: 20px;
+  font-weight: 900;
+}
