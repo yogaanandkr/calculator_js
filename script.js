@@ -11,7 +11,8 @@ for (let i = 0; i < a.length; i++) {
     console.log(scr.value.slice(scr.value.length - 1));
     if (
       "+-/*%.".includes(a[i].innerHTML) &&
-      a[i].innerHTML == scr.value.slice(scr.value.length - 1)
+      (a[i].innerHTML == scr.value.slice(scr.value.length - 1) ||
+        "+/%*-.".includes(scr.value.slice(scr.value.length - 1)))
     ) {
       // console.log("correct".includes(""));
       // scr.value = scr.value + a[i].innerHTML;
