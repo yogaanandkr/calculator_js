@@ -13,7 +13,10 @@ body {
 
 table {
   height: 51vh;
-  width: 30vw;
+  width: 30%;
+}
+td {
+  height: 80px;
 }
 
 button {
@@ -32,7 +35,7 @@ button:hover {
 #s {
   width: 99%;
   text-align: right;
-  height: 90%;
+  height: 100%;
   font-size: 20px;
   font-weight: 900;
   margin-bottom: 10px;
@@ -47,7 +50,7 @@ button:hover {
   position: absolute;
   bottom: 0;
   right: 0;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
   border: transparent;
   text-align: right;
   margin-right: 10px;
